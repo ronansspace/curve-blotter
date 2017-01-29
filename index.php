@@ -1,3 +1,9 @@
+
+<?php
+session_start();
+require_once('inc/def.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <body>
