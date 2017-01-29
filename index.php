@@ -90,5 +90,86 @@ require_once('inc/def.php');
     <script src="include/jquery-ui-11.js"></script>
     <script src="include/paging.js"></script>
 
+
+    <script>
+
+
+        var result_count  = 0 ;
+        var tableid = 1;
+
+        $(document).ready(function() {
+            getrecord_max();
+        });
+
+        function getrecord_max(){
+
+
+            $('#jsontable').dataTable().fnDestroy();
+
+            var oTable = $('#jsontable').dataTable({
+                "iDisplayLength": 25,
+                "processing": true,
+                "scrollX": true,
+            });
+
+            var all_val = $('input[name=options]:checked').val();
+            var stDate = $('input[name=stDate]').val();
+            var enDate = $('input[name=enDate]').val();
+
+
+            $.ajax({
+
+                url: 'process.php?method=fetchdata&theid='+all_val+'&stdate='+stDate+'&endate='+enDate + " ",
+                dataType: 'json',
+                success: function(s){
+
+                    oTable.fnClearTable();
+
+                    if(s == "empty"){
+
+
+                    } else {
+
+                        for(var i = 0; i < s.length; i++)
+                        {
+                            //, env - EMAIL ICON
+
+                            oTable.fnAddData([ "<input type='checkbox' name='id_trades' class='check_box' value='"+s[i][0]+"'/>", s[i][0], s[i][45], s[i][40],
+                                s[i][41], s[i][2], s[i][3], s[i][5], s[i][6], s[i][7], s[i][10],
+                                s[i][15], s[i][26], s[i][27], s[i][44], s[i][33], s[i][39], s[i][16], s[i][19], s[i][20], s[i][21], s[i][22], s[i][23], s[i][25],
+                                s[i][28], s[i][29], s[i][30], s[i][34], s[i][35], s[i][36], s[i][37], s[i][38],
+                                s[i][4], s[i][9], s[i][12], s[i][18], s[i][24], s[i][31], s[i][32], s[i][8], s[i][11], s[i][13], s[i][14]
+                            ]);
+
+                            var theNode = oTable.fnSettings().aoData[i].nTr;
+                            theNode.setAttribute('data-did', s[i][0]);
+                            theNode.setAttribute('class', 'record_row');
+
+                            $('td', theNode)[3].setAttribute( 'class', s[i][42] );
+                            $('td', theNode)[4].setAttribute( 'class', s[i][43] );
+
+                        } // End For
+
+                    }
+
+
+
+                },
+                error: function(e){
+                    //console.log(e.responseText);
+                    //alert(e.responseText);
+                    //alert('Error loading records.')
+                }
+            });
+        }
+
+    </script>
+
+
+
+    <div id="back" style="display:none;"></div>
+
+    <div id="back_email" style="display:none;"></div>
+
 </body>
 </html>
