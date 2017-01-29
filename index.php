@@ -41,7 +41,7 @@ require_once('../inc/def.php');
             </header>
 
             <div style="width:60%;float:left;display:inline;">
-                <h4 class="table_heading">Trades</h4>
+                <h4 class="table_heading">Execution Reports</h4>
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
