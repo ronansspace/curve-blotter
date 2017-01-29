@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('../inc/def.php');
+require_once('inc/def.php');
 ?>
 
 <!doctype html>
