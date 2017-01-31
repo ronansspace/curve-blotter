@@ -8,7 +8,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM FIXExecutionReport";
+$sql = "SELECT * FROM FIXExecutionReport ORDER by TransactTime DESC";
 
 $result = $conn->query($sql);
 
