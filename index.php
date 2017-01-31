@@ -77,6 +77,20 @@ require_once('inc/def.php');
                     </thead>
                 </table>
             </div>
+            <div style="width:40%;float:left;display:inline;padding-left:10px;">
+                <h4 class="table_heading">P&L</h4>
+                <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th>Side</th>
+                        <th>TotalQty</th>
+                        <th>AvgPrice</th>
+                        <th>Symbol</th>
+                    </tr>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -100,8 +114,66 @@ require_once('inc/def.php');
 
         $(document).ready(function() {
             getrecord_max();
+            getpl_records();
         });
 
+        function getpl_records(){
+
+
+            $('#jsontable_pl').dataTable().fnDestroy();
+
+            var oTable = $('#jsontable_pl').dataTable({
+                "iDisplayLength": 25,
+                "processing": true,
+                "scrollX": true,
+            });
+
+            var all_val = $('input[name=options]:checked').val();
+            var stDate = $('input[name=stDate]').val();
+            var enDate = $('input[name=enDate]').val();
+
+
+            $.ajax({
+
+                url: 'process_pl.php?method=fetchdata&theid='+all_val+'&stdate='+stDate+'&endate='+enDate + " ",
+                dataType: 'json',
+                success: function(s){
+
+                    oTable.fnClearTable();
+
+                    if(s == "empty"){
+
+
+                    } else {
+
+                        for(var i = 0; i < s.length; i++)
+                        {
+                            //, env - EMAIL ICON
+
+                            oTable.fnAddData([ "<input type='checkbox' name='id_trades' class='check_box' value='"+s[i][0]+"'/>", s[i][0], s[i][1], s[i][2], s[i][3]
+                            ]);
+
+                            var theNode = oTable.fnSettings().aoData[i].nTr;
+                            theNode.setAttribute('data-did', s[i][0]);
+                            theNode.setAttribute('class', 'record_row');
+
+                            $('td', theNode)[3].setAttribute( 'class', s[i][0] );
+                            $('td', theNode)[4].setAttribute( 'class', s[i][0] );
+
+                        } // End For
+
+                    }
+
+
+
+                },
+                error: function(e){
+                    //console.log(e.responseText);
+                    //alert(e.responseText);
+                    //alert('Error loading records.')
+                }
+            });
+        }
         function getrecord_max(){
 
 
