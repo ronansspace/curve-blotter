@@ -39,7 +39,24 @@ require_once('inc/def.php');
                 <h1>FIX Blotter</h1>
                 <br style="clear:both">
             </header>
-
+            <div style="width:90%;float:left;display:inline;padding-left:10px;">
+                <h4 class="table_heading">Summarised Positions</h4>
+                <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th>CcyPair</th>
+                        <th>BoughtQty</th>
+                        <th>SoldQty</th>
+                        <th>SettledQty</th>
+                        <th>BoughtAVG</th>
+                        <th>SoldAVG</th>
+                        <th>Banked</th>
+                        <th>OutstandingQty</th>
+                    </tr>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
             <div style="width:90%;float:left;display:inline;">
                 <h4 class="table_heading">Execution Reports</h4>
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
@@ -73,24 +90,6 @@ require_once('inc/def.php');
                         <th>Order ID</th>
                         <th>Source System</th>
                         </tr>
-                    </tr>
-                    </thead>
-                </table>
-            </div>
-            <div style="width:90%;float:left;display:inline;padding-left:10px;">
-                <h4 class="table_heading">P&L</h4>
-                <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
-                    <thead>
-                    <tr>
-                        <th>CcyPair</th>
-                        <th>BoughtQty</th>
-                        <th>SoldQty</th>
-                        <th>SettledQty</th>
-                        <th>BoughtAVG</th>
-                        <th>SoldAVG</th>
-                        <th>Banked</th>
-                        <th>OutstandingQty</th>
-                    </tr>
                     </tr>
                     </thead>
                 </table>
