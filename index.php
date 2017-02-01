@@ -82,10 +82,14 @@ require_once('inc/def.php');
                 <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
-                        <th>Side</th>
-                        <th>TotalQty</th>
-                        <th>AvgPrice</th>
-                        <th>Symbol</th>
+                        <th>CcyPair</th>
+                        <th>BoughtQty</th>
+                        <th>SoldQty</th>
+                        <th>SettledQty</th>
+                        <th>BoughtAVG</th>
+                        <th>SoldAVG</th>
+                        <th>Banked</th>
+                        <th>OutstandingQty</th>
                     </tr>
                     </tr>
                     </thead>
@@ -149,7 +153,7 @@ require_once('inc/def.php');
                         for(var i = 0; i < s.length; i++)
                         {
                             oTable.fnAddData([
-                                s[i][0], s[i][1], s[i][2], s[i][3]
+                                s[i][0], s[i][1], s[i][2], s[i][3], s[i][4], s[i][5], s[i][6], s[i][7]
                             ]);
 
                         } // End For
