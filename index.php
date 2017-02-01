@@ -40,7 +40,7 @@ require_once('inc/def.php');
                 <br style="clear:both">
             </header>
 
-            <div style="width:60%;float:left;display:inline;">
+            <div style="width:90%;float:left;display:inline;">
                 <h4 class="table_heading">Execution Reports</h4>
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
@@ -77,7 +77,7 @@ require_once('inc/def.php');
                     </thead>
                 </table>
             </div>
-            <div style="width:40%;float:left;display:inline;padding-left:10px;">
+            <div style="width:90%;float:left;display:inline;padding-left:10px;">
                 <h4 class="table_heading">P&L</h4>
                 <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
