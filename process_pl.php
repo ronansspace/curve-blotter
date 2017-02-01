@@ -8,7 +8,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Side, SUM(LastQty) AS TotalQty, AVG(LastPx) As AvgPrice, Symbol FROM FIXExecutionReport GROUP BY Symbol, Side ORDER BY Symbol";
+$sql = "call get_pl";
 
 $result = $conn->query($sql);
 
@@ -22,7 +22,7 @@ if($size <= 0){
 while($fetch = $result->fetch_array()) {
 
     $output[] = array (
-        $fetch["Side"],$fetch["TotalQty"],$fetch["AvgPrice"],$fetch["Symbol"]
+        $fetch["CcyPair"],$fetch["BoughtQty"],$fetch["SoldQty"],$fetch["SettledQty"],$fetch["BoughtAVG"],$fetch["SoldAVG"],$fetch["Banked"],$fetch["OutstandingQty"]
     );
 }
 
