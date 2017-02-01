@@ -50,7 +50,7 @@ require_once('inc/def.php');
                         <th>SettledQty</th>
                         <th>BoughtAVG</th>
                         <th>SoldAVG</th>
-                        <th>Banked</th>
+                        <th>Realised PL</th>
                         <th>OutstandingQty</th>
                     </tr>
                     </tr>
