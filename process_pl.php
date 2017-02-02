@@ -27,7 +27,8 @@ $dt_sec = str_replace("/", "-", $_GET['endate']);
 $dt_sec = date('Ymd', strtotime($dt_sec));
 
 if($qry_type == 1){
-
+    $startDate = '19700101';
+    $endDate = $dt_today;
 }else if($qry_type == 2){
     $startDate = $dt_today;
     $endDate = $dt_today;
