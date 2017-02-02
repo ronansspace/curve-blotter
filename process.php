@@ -26,18 +26,16 @@ $dt_sec = date('Ymd', strtotime($dt_sec));
 if($qry_type == 1){
 
 }else if($qry_type == 2){
-    $xtra_qry =  "and str_to_date( TradeDate, '%d/%m/%Y') = '$dt_today'";
+    $xtra_qry =  "and TradeDate = '$dt_today'";
 }else if($qry_type == 3){
 
 }else if($qry_type == 4){
-    $xtra_qry =  " and (str_to_date( TradeDate, '%d/%m/%Y') between '$dt_today_ten' and '$dt_today') ";
+    $xtra_qry =  " and (TradeDate between '$dt_today_ten' and '$dt_today') ";
 }else if($qry_type == 5){
-    $xtra_qry =  " and (str_to_date( TradeDate, '%d/%m/%Y') between '$dt_first' and '$dt_sec') ";
+    $xtra_qry =  " and (TradeDate between '$dt_first' and '$dt_sec') ";
 }
 
 $sql = "SELECT * FROM FIXExecutionReport WHERE 1=1 $xtra_qry ORDER by TransactTime DESC";
-
-$sql = "SELECT * FROM FIXExecutionReport ORDER by TransactTime DESC";
 
 $result = $conn->query($sql);
 
