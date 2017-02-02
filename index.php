@@ -43,7 +43,7 @@ require_once('inc/def.php');
             <div class="controls-div">
 
                 <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-sm btn-default">
+                    <label class="btn btn-sm btn-info">
                         <input type="radio" name="options" value="1" autocomplete="off"> All Trades
                     </label>
                     <label class="btn btn-sm btn-default active" >
