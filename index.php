@@ -263,6 +263,7 @@ require_once('inc/def.php');
                 "iDisplayLength": 25,
                 "processing": true,
                 "scrollX": true,
+                "order": [[ 19, "desc" ]]
             });
 
             var all_val = $('input[name=options]:checked').val();
