@@ -241,7 +241,7 @@ require_once('inc/def.php');
 
             $('#example').DataTable( {
                 data:           data,
-                deferRender:    false,
+                deferRender:    true,
                 scrollY:        200,
                 scrollCollapse: true,
                 scroller:       true
