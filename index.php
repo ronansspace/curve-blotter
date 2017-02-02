@@ -264,7 +264,6 @@ require_once('inc/def.php');
                 "processing": true,
                 "scrollX": true,
                 "deferRender": true,
-                "paging": false,
                 "order": [[ 18, "desc" ]]
             });
 
