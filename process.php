@@ -8,7 +8,34 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM FIXExecutionReport ORDER by TransactTime DESC";
+$qry_type = $_GET['theid'];
+
+$xtra_qry = "";
+
+$dt_today = date('Y-m-d');
+
+//Last 10 days
+$dt_today_ten = date('Y-m-d', strtotime("-10 days"));
+
+$dt_first = str_replace("/", "-", strtotime($_GET['stdate']));
+$dt_first = date('Y-m-d', strtotime($_GET['stdate']));
+
+$dt_sec = str_replace("/", "-", $_GET['endate']);
+$dt_sec = date('Y-m-d', strtotime($dt_sec));
+
+if($qry_type == 1){
+
+}else if($qry_type == 2){
+    $xtra_qry =  "and str_to_date( TradeDate, '%d/%m/%Y') = '$dt_today'";
+}else if($qry_type == 3){
+
+}else if($qry_type == 4){
+    $xtra_qry =  " and (str_to_date( TradeDate, '%d/%m/%Y') between '$dt_today_ten' and '$dt_today') ";
+}else if($qry_type == 5){
+    $xtra_qry =  " and (str_to_date( TradeDate, '%d/%m/%Y') between '$dt_first' and '$dt_sec') ";
+}
+
+$sql = "SELECT * FROM FIXExecutionReport WHERE 1=1 $xtra_qry ORDER by TransactTime DESC";
 
 $result = $conn->query($sql);
 

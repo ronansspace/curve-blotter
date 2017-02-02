@@ -39,6 +39,39 @@ require_once('inc/def.php');
                 <h1>FIX Blotter</h1>
                 <br style="clear:both">
             </header>
+
+            <div class="controls-div">
+
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-sm btn-default">
+                        <input type="radio" name="options" value="1" autocomplete="off"> All Trades
+                    </label>
+                    <label class="btn btn-sm btn-default active" >
+                        <input type="radio" name="options" value="2" autocomplete="off" checked> Today's Trade
+                    </label>
+                    <label class="btn btn-sm btn-default">
+                        <input type="radio" name="options" value="3" autocomplete="off"> Unmatched
+                    </label>
+                    <label class="btn btn-sm btn-default">
+                        <input type="radio" name="options" value="4" autocomplete="off"> Last 10 Days
+                    </label>
+                    <label class="btn btn-sm btn-default">
+                        <input type="radio" name="options" value="5" autocomplete="off"> By Date
+                    </label>
+                </div>
+
+
+                <div id="tradebdate" style="width:20%;display:none;">
+                    <input type="text" class="input-xs" placeholder="Start Date" name="stDate" id="stDate">
+                    <input type="text" class="input-xs" placeholder="End Date" name="enDate" id="enDate">
+                    <input type="button" class="btn btn-xs btn-default" id="date_filter_submit" value="Submit">
+                </div>
+
+
+                <input type="hidden" name="trade_filter" value="1">
+
+            </div>
+
             <div style="width:90%;float:left;display:inline;padding-left:10px;">
                 <h4 class="table_heading">Summarised Positions</h4>
                 <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
