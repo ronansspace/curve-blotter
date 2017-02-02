@@ -12,16 +12,16 @@ $qry_type = $_GET['theid'];
 
 $xtra_qry = "";
 
-$dt_today = date('Y-m-d');
+$dt_today = date('Ymd');
 
 //Last 10 days
-$dt_today_ten = date('Y-m-d', strtotime("-10 days"));
+$dt_today_ten = date('Ymd', strtotime("-10 days"));
 
-$dt_first = str_replace("/", "-", strtotime($_GET['stdate']));
-$dt_first = date('Y-m-d', strtotime($_GET['stdate']));
+$dt_first = str_replace("/", "", strtotime($_GET['stdate']));
+$dt_first = date('Ymd', strtotime($_GET['stdate']));
 
 $dt_sec = str_replace("/", "-", $_GET['endate']);
-$dt_sec = date('Y-m-d', strtotime($dt_sec));
+$dt_sec = date('Ymd', strtotime($dt_sec));
 
 if($qry_type == 1){
 
