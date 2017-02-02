@@ -92,6 +92,7 @@ require_once('inc/def.php');
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
+                        <th>Transact Time</th>
                         <th>Exec ID</th>
                         <th>Account</th>
                         <th>B/S</th>
@@ -110,7 +111,6 @@ require_once('inc/def.php');
                         <th>Currency</th>
                         <th>Price</th>
                         <th>Time In Force</th>
-                        <th>Transact Time</th>
                         <th>ListID</th>
                         <th>Effective Time</th>
                         <th>No. Contra Brokers</th>
@@ -261,7 +261,7 @@ require_once('inc/def.php');
                     } else {
                         var data = [];
                         for(var i = 0; i < s.length; i++) {
-                            data.push([s[i][6], s[i][0], s[i][14], s[i][1], s[i][8], s[i][7], s[i][10], s[i][19], s[i][17], s[i][12], s[i][11], s[i][20], s[i][2], s[i][4], s[i][21], s[i][5], s[i][13], s[i][15], s[i][16], s[i][18], s[i][22], s[i][23], s[i][24], s[i][3], s[i][9], s[i][25]]);
+                            data.push([s[i][16], s[i][6], s[i][0], s[i][14], s[i][1], s[i][8], s[i][7], s[i][10], s[i][19], s[i][17], s[i][12], s[i][11], s[i][20], s[i][2], s[i][4], s[i][21], s[i][5], s[i][13], s[i][15], s[i][18], s[i][22], s[i][23], s[i][24], s[i][3], s[i][9], s[i][25]]);
                         }
 
                         var oTable = $('#jsontable').dataTable({
