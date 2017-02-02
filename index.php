@@ -290,11 +290,11 @@ require_once('inc/def.php');
                             s[i][3], s[i][9], s[i][25]
                             ]);
 
-                            var theNode = oTable.fnSettings().aoData[i].nTr;
-                            theNode.setAttribute('data-did', s[i][0]);
-                            theNode.setAttribute('class', 'record_row');
-                            $('td', theNode)[3].setAttribute( 'class', s[i][0] );
-                            $('td', theNode)[4].setAttribute( 'class', s[i][0] );
+                            //var theNode = oTable.fnSettings().aoData[i].nTr;
+                            //theNode.setAttribute('data-did', s[i][0]);
+                            //theNode.setAttribute('class', 'record_row');
+                            //$('td', theNode)[3].setAttribute( 'class', s[i][0] );
+                            //$('td', theNode)[4].setAttribute( 'class', s[i][0] );
 
                         } // End For
 
