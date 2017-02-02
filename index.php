@@ -133,6 +133,28 @@ require_once('inc/def.php');
             <th>Last name</th>
             <th>ZIP / Post code</th>
             <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
+            <th>Country</th>
         </tr>
         </thead>
     </table>
@@ -214,7 +236,7 @@ require_once('inc/def.php');
         $(document).ready(function() {
             var data = [];
             for ( var i=0 ; i<50000 ; i++ ) {
-                data.push( [ i, i, i, i, i ] );
+                data.push( [ i, i, i, i, i,i, i, i, i, i,i, i, i, i, i,i, i, i, i, i,i, i, i, i, i,i,i ] );
             }
 
             $('#example').DataTable( {
