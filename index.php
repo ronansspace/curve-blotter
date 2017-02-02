@@ -270,7 +270,7 @@ require_once('inc/def.php');
                             "processing": true,
                             "scrollX": true,
                             "deferRender": true,
-                            "order": [[ 18, "desc" ]]
+                            "order": [[ 0, "desc" ]]
                         });
                     }
                 },
