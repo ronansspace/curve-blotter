@@ -18,7 +18,7 @@ $dt_today = date('Ymd');
 $dt_today_ten = date('Ymd', strtotime("-10 days"));
 
 $dt_first = str_replace("/", "-", $_GET['stdate']);
-$dt_first = date('Ymd', strtotime($dt_sec));
+$dt_first = date('Ymd', strtotime($dt_first));
 
 $dt_sec = str_replace("/", "-", $_GET['endate']);
 $dt_sec = date('Ymd', strtotime($dt_sec));
