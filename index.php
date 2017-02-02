@@ -46,16 +46,16 @@ require_once('inc/def.php');
                     <label class="btn btn-sm btn-info">
                         <input type="radio" name="options" value="1" autocomplete="off"> All Trades
                     </label>
-                    <label class="btn btn-sm btn-default active" >
+                    <label class="btn btn-sm btn-info active" >
                         <input type="radio" name="options" value="2" autocomplete="off" checked> Today's Trade
                     </label>
-                    <label class="btn btn-sm btn-default">
+                    <label class="btn btn-sm btn-info">
                         <input type="radio" name="options" value="3" autocomplete="off"> Unmatched
                     </label>
-                    <label class="btn btn-sm btn-default">
+                    <label class="btn btn-sm btn-info">
                         <input type="radio" name="options" value="4" autocomplete="off"> Last 10 Days
                     </label>
-                    <label class="btn btn-sm btn-default">
+                    <label class="btn btn-sm btn-info">
                         <input type="radio" name="options" value="5" autocomplete="off"> By Date
                     </label>
                 </div>
