@@ -285,24 +285,23 @@ require_once('inc/def.php');
 
                     } else {
 
-                        for(var i = 0; i < s.length; i++)
-                        {
-                            //, env - EMAIL ICON
+                        //for(var i = 0; i < s.length; i++)
+                        //{
 
-                            oTable.fnAddData([ "<input type='checkbox' name='id_trades' class='check_box' value='"+s[i][0]+"'/>", s[i][6], s[i][0], s[i][14],
-                                s[i][1], s[i][8], s[i][7], s[i][10], s[i][19], s[i][17], s[i][12],
-                                s[i][11], s[i][20], s[i][2], s[i][4], s[i][21], s[i][5], s[i][13], s[i][15], s[i][16], s[i][18], s[i][22], s[i][23], s[i][24],
-                                s[i][3], s[i][9], s[i][25]
-                            ]);
+                          //  oTable.fnAddData([ "<input type='checkbox' name='id_trades' class='check_box' value='"+s[i][0]+"'/>", s[i][6], s[i][0], s[i][14],
+                            //    s[i][1], s[i][8], s[i][7], s[i][10], s[i][19], s[i][17], s[i][12],
+                              //  s[i][11], s[i][20], s[i][2], s[i][4], s[i][21], s[i][5], s[i][13], s[i][15], s[i][16], s[i][18], s[i][22], s[i][23], s[i][24],
+                          //  s[i][3], s[i][9], s[i][25]
+                            //]);
 
-                            var theNode = oTable.fnSettings().aoData[i].nTr;
-                            theNode.setAttribute('data-did', s[i][0]);
-                            theNode.setAttribute('class', 'record_row');
+                            //var theNode = oTable.fnSettings().aoData[i].nTr;
+                            //theNode.setAttribute('data-did', s[i][0]);
+                            //theNode.setAttribute('class', 'record_row');
 
-                            $('td', theNode)[3].setAttribute( 'class', s[i][0] );
-                            $('td', theNode)[4].setAttribute( 'class', s[i][0] );
+                            //$('td', theNode)[3].setAttribute( 'class', s[i][0] );
+                            //$('td', theNode)[4].setAttribute( 'class', s[i][0] );
 
-                        } // End For
+                        //} // End For
 
                     }
 
