@@ -263,7 +263,7 @@ require_once('inc/def.php');
                 "iDisplayLength": 25,
                 "processing": true,
                 "scrollX": true,
-                "deferRende": true,
+                "bDeferRender": true,
                 "order": [[ 18, "desc" ]]
             });
 
