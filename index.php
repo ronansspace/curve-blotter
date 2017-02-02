@@ -148,6 +148,59 @@ require_once('inc/def.php');
         var result_count  = 0 ;
         var tableid = 1;
 
+        $('input[name="options"]').change( function() {
+
+            var all_val = $(this).val();
+            $("#tradebdate").hide();
+
+            if(all_val == 1){
+                $('input[name="trade_filter"]').val(1);
+            } else if(all_val == 2){
+                $('input[name="trade_filter"]').val(2);
+            } else if(all_val == 3){
+                $('input[name="trade_filter"]').val(3);
+            } else if(all_val == 4){
+                $('input[name="trade_filter"]').val(4);
+            } else if(all_val == 5){
+                $("#tradebdate").css('display', 'inline');
+                $("#tradebdate").show();
+                $('input[name="trade_filter"]').val(5);
+            }
+
+            if(all_val != 5){
+
+                getrecord_max();
+                getpl_records();
+
+            }
+
+
+        });
+
+        $(document).on("click", "#date_filter_submit", function (){
+
+            var stDate = $('input[name=stDate]').val();
+            var enDate = $('input[name=enDate]').val();
+
+
+
+            if(stDate == "" || enDate == ""){
+
+                alert("Please choose date range.");
+                return false;
+
+            }else{
+
+                getrecord_max();
+                getpl_records();
+
+            }
+
+
+        });
+
+        $("body").disableSelection();
+
         $(document).ready(function() {
             getrecord_max();
             getpl_records();
