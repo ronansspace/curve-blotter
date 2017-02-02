@@ -92,7 +92,6 @@ require_once('inc/def.php');
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
-                        <th> </th>
                         <th>Exec ID</th>
                         <th>Account</th>
                         <th>B/S</th>
