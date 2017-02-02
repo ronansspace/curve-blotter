@@ -144,10 +144,6 @@ require_once('inc/def.php');
 
     <script>
 
-
-        var result_count  = 0 ;
-        var tableid = 1;
-
         $('input[name="options"]').change( function() {
 
             var all_val = $(this).val();
@@ -200,6 +196,16 @@ require_once('inc/def.php');
         });
 
         $("body").disableSelection();
+
+        var result_count  = 0 ;
+        var tableid = 1;
+
+        $("#stDate").datepicker({ dateFormat: 'dd/mm/yy' });
+        $("#enDate").datepicker({ dateFormat: 'dd/mm/yy' });
+
+        function updateRecord(){
+            $(".badge").html("&nbsp;"+result_count+"&nbsp;");
+        }
 
         $(document).ready(function() {
             getrecord_max();
