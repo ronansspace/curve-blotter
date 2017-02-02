@@ -119,7 +119,6 @@ require_once('inc/def.php');
                         <th>Order ID</th>
                         <th>Source System</th>
                         </tr>
-                    </tr>
                     </thead>
                 </table>
             </div>
