@@ -37,6 +37,8 @@ if($qry_type == 1){
 
 $sql = "SELECT * FROM FIXExecutionReport WHERE 1=1 $xtra_qry ORDER by TransactTime DESC";
 
+$sql = "SELECT * FROM FIXExecutionReport ORDER by TransactTime DESC";
+
 $result = $conn->query($sql);
 
 $size = $result->num_rows;
