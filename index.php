@@ -279,7 +279,6 @@ require_once('inc/def.php');
                 success: function(s){
 
                     oTable.fnClearTable();
-                    oTable.hide();
 
                     if(s == "empty"){
 
@@ -306,9 +305,6 @@ require_once('inc/def.php');
                         } // End For
 
                     }
-                    oTable.show();
-
-
 
                 },
                 error: function(e){
