@@ -125,6 +125,17 @@ require_once('inc/def.php');
         </div>
     </div>
 
+    <table id="example" class="display nowrap" cellspacing="0" width="100%">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>ZIP / Post code</th>
+            <th>Country</th>
+        </tr>
+        </thead>
+    </table>
 
     <script src="include/jquery10.js"></script>
     <script src="include/pace.min.js"></script>
@@ -201,7 +212,20 @@ require_once('inc/def.php');
         }
 
         $(document).ready(function() {
-            getrecord_max();
+            var data = [];
+            for ( var i=0 ; i<50000 ; i++ ) {
+                data.push( [ i, i, i, i, i ] );
+            }
+
+            $('#example').DataTable( {
+                data:           data,
+                deferRender:    true,
+                scrollY:        200,
+                scrollCollapse: true,
+                scroller:       true
+            } );
+
+            //getrecord_max();
             getpl_records();
         });
 
