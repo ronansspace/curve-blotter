@@ -278,11 +278,7 @@ require_once('inc/def.php');
                 success: function(s){
 
                     //oTable.fnClearTable();
-
-                    var data = []; 
-
-                    for ( var i=0 ; i<50000 ; i++ ) {     data.push( [ i, i, i, i, i,i, i, i, i, i,i, i, i, i, i,i, i, i, i, i,i, i, i, i, i,i,i ] ); }
-
+                    
                     if(s == "empty"){
 
 
