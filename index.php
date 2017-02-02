@@ -50,13 +50,10 @@ require_once('inc/def.php');
                         <input type="radio" name="options" value="2" autocomplete="off" checked> Today's Trade
                     </label>
                     <label class="btn btn-sm btn-info">
-                        <input type="radio" name="options" value="3" autocomplete="off"> Unmatched
+                        <input type="radio" name="options" value="3" autocomplete="off"> Last 10 Days
                     </label>
                     <label class="btn btn-sm btn-info">
-                        <input type="radio" name="options" value="4" autocomplete="off"> Last 10 Days
-                    </label>
-                    <label class="btn btn-sm btn-info">
-                        <input type="radio" name="options" value="5" autocomplete="off"> By Date
+                        <input type="radio" name="options" value="4" autocomplete="off"> By Date
                     </label>
                 </div>
 
@@ -156,14 +153,12 @@ require_once('inc/def.php');
             } else if(all_val == 3){
                 $('input[name="trade_filter"]').val(3);
             } else if(all_val == 4){
-                $('input[name="trade_filter"]').val(4);
-            } else if(all_val == 5){
                 $("#tradebdate").css('display', 'inline');
                 $("#tradebdate").show();
-                $('input[name="trade_filter"]').val(5);
+                $('input[name="trade_filter"]').val(4);
             }
 
-            if(all_val != 5){
+            if(all_val != 4){
 
                 getrecord_max();
                 getpl_records();
