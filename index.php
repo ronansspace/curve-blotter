@@ -206,19 +206,11 @@ require_once('inc/def.php');
 
         function getpl_records(){
 
-
             $('#jsontable_pl').dataTable().fnDestroy();
-
-            var oTable = $('#jsontable_pl').dataTable({
-                "iDisplayLength": 25,
-                "processing": true,
-                "scrollX": true,
-            });
 
             var all_val = $('input[name=options]:checked').val();
             var stDate = $('input[name=stDate]').val();
             var enDate = $('input[name=enDate]').val();
-
 
             $.ajax({
 
@@ -226,25 +218,23 @@ require_once('inc/def.php');
                 dataType: 'json',
                 success: function(s){
 
-                    oTable.fnClearTable();
-
                     if(s == "empty"){
 
-
                     } else {
+                        var data = [];
 
-                        for(var i = 0; i < s.length; i++)
-                        {
-                            oTable.fnAddData([
-                                s[i][0], s[i][1], s[i][2], s[i][3], s[i][4], s[i][5], s[i][6], s[i][7]
-                            ]);
+                        for(var i = 0; i < s.length; i++) {
+                            data.push([s[i][0], s[i][1], s[i][2], s[i][3], s[i][4], s[i][5], s[i][6], s[i][7]]);
+                        }
 
-                        } // End For
-
+                        var oTable = $('#jsontable_pl').dataTable({
+                            "data": data,
+                            "iDisplayLength": 25,
+                            "processing": true,
+                            "scrollX": true,
+                            "deferRender": true
+                        });
                     }
-
-
-
                 },
                 error: function(e){
                     //console.log(e.responseText);
@@ -255,21 +245,11 @@ require_once('inc/def.php');
         }
         function getrecord_max(){
 
-
             $('#jsontable').dataTable().fnDestroy();
-
-            //var oTable = $('#jsontable').dataTable({
-               // "iDisplayLength": 25,
-              //  "processing": true,
-              //  "scrollX": true,
-              //  "deferRender": true,
-              //  "order": [[ 18, "desc" ]]
-           // });
 
             var all_val = $('input[name=options]:checked').val();
             var stDate = $('input[name=stDate]').val();
             var enDate = $('input[name=enDate]').val();
-
 
             $.ajax({
 
@@ -277,22 +257,12 @@ require_once('inc/def.php');
                 dataType: 'json',
                 success: function(s){
 
-                    //oTable.fnClearTable();
-
                     if(s == "empty"){
-
-
                     } else {
                         var data = [];
-                        for(var i = 0; i < s.length; i++)
-                        {
+                        for(var i = 0; i < s.length; i++) {
                             data.push([s[i][6], s[i][0], s[i][14], s[i][1], s[i][8], s[i][7], s[i][10], s[i][19], s[i][17], s[i][12], s[i][11], s[i][20], s[i][2], s[i][4], s[i][21], s[i][5], s[i][13], s[i][15], s[i][16], s[i][18], s[i][22], s[i][23], s[i][24], s[i][3], s[i][9], s[i][25]]);
-                    //        oTable.fnAddData([ s[i][6], s[i][0], s[i][14],
-                      //          s[i][1], s[i][8], s[i][7], s[i][10], s[i][19], s[i][17], s[i][12],
-                        //        s[i][11], s[i][20], s[i][2], s[i][4], s[i][21], s[i][5], s[i][13], s[i][15], s[i][16], s[i][18], s[i][22], s[i][23], s[i][24],
-                          //  s[i][3], s[i][9], s[i][25]
-                            //]);
-                        } // End For
+                        }
 
                         var oTable = $('#jsontable').dataTable({
                             "data": data,
@@ -302,9 +272,7 @@ require_once('inc/def.php');
                             "deferRender": true,
                             "order": [[ 18, "desc" ]]
                         });
-
                     }
-
                 },
                 error: function(e){
                     //console.log(e.responseText);
