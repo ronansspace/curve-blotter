@@ -117,6 +117,7 @@ require_once('inc/def.php');
                         <th>Secondary Exec ID</th>
                         <th>ClOrdID</th>
                         <th>Order ID</th>
+                        <th>Party ID</th>
                         <th>Source System</th>
                         </tr>
                     </thead>
