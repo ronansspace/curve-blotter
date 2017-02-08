@@ -1,12 +1,11 @@
-CREATE PROCEDURE get_pl(IN startDate VARCHAR(8), IN endDate VARCHAR(8))
 BEGIN
        
    create temporary table tmp engine=memory
    SELECT t1.Symbol, tbuy.TotalQty As BoughtQty, tsell.TotalQty as SoldQty, tbuy.AvgPrice as BoughtAVG, tsell.AvgPrice as SoldAVG from 
-   (SELECT Side, SUM(LastQty) AS TotalQty, AVG(LastPx) As AvgPrice, Symbol FROM FIXExecutionReport WHERE TradeDate >= startDate and TradeDate <= endDate GROUP BY Symbol, Side) t1
-   inner join (select TotalQty, AvgPrice, Symbol from (SELECT Side, SUM(LastQty) AS TotalQty, AVG(LastPx) As AvgPrice, Symbol 
+   (SELECT Side, SUM(LastQty) AS TotalQty, SUM(LastPx*LastQty)/SUM(LastQty) As AvgPrice, Symbol FROM FIXExecutionReport WHERE TradeDate >= startDate and TradeDate <= endDate GROUP BY Symbol, Side) t1
+   inner join (select TotalQty, AvgPrice, Symbol from (SELECT Side, SUM(LastQty) AS TotalQty, SUM(LastPx*LastQty)/SUM(LastQty) As AvgPrice, Symbol 
    FROM FIXExecutionReport WHERE TradeDate >= startDate and TradeDate <= endDate GROUP BY Symbol, Side) t2 where Side='Buy') tbuy on tbuy.Symbol=t1.Symbol
-   inner join (select TotalQty, AvgPrice, Symbol from (SELECT Side, SUM(LastQty) AS TotalQty, AVG(LastPx) As AvgPrice, Symbol 
+   inner join (select TotalQty, AvgPrice, Symbol from (SELECT Side, SUM(LastQty) AS TotalQty, SUM(LastPx*LastQty)/SUM(LastQty) As AvgPrice, Symbol 
    FROM FIXExecutionReport WHERE TradeDate >= startDate and TradeDate <= endDate GROUP BY Symbol, Side) t3 where Side='Sell') tsell on tsell.Symbol=t1.Symbol
    group by t1.Symbol, tbuy.TotalQty, tsell.TotalQty, tbuy.AvgPrice, tsell.AvgPrice;
    
@@ -22,7 +21,7 @@ BEGIN
    BoughtQty, SoldQty,
    LEAST(BoughtQty, SoldQty) AS SettledQty,
    BoughtAVG, SoldAVG,
-   (LEAST(BoughtQty, SoldQty) * SoldAVG) - (LEAST(BoughtQty, SoldQty) * BoughtAVG) as Banked,
+  ROUND( (LEAST(BoughtQty, SoldQty) * SoldAVG) - (LEAST(BoughtQty, SoldQty) * BoughtAVG),0) as Banked,
    BoughtQty - SoldQty As OutstandingQty
    FROM tmp
    UNION SELECT CcyPair, BoughtQty, SoldQty, 0 As SettledQty, BoughtAVG, SoldAVG, 0 as Banked, BoughtQty As OutstandingQty FROM tmpbuy

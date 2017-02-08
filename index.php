@@ -70,7 +70,7 @@ require_once('inc/def.php');
             </div>
 
             <div style="width:90%;float:left;display:inline;padding-left:10px;">
-                <h4 class="table_heading">Summarised Positions</h4>
+                <h4 class="table_heading">Positions</h4>
                 <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
@@ -83,12 +83,34 @@ require_once('inc/def.php');
                         <th>Realised PL</th>
                         <th>OutstandingQty</th>
                     </tr>
+                    </thead>
+                </table>
+            </div>
+            <div style="width:90%;float:left;display:inline;padding-left:10px;">
+                <h4 class="table_heading">Orders</h4>
+                <table id="jsontable_order" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th>OrderID</th>
+                        <th>Account</th>
+                        <th>Trader</th>
+                        <th>B/S</th>
+                        <th>Pair</th>
+                        <th>Ccy</th>
+                        <th>Avg Price</th>
+                        <th>Trade Date</th>
+                        <th>SettleDate</th>
+                        <th>Order Type</th>
+                        <th>Order Qty</th>
+                        <th>Order Status</th>
+                        <th>Outstanding Qty</th>
+                        <th>Source System</th>
                     </tr>
                     </thead>
                 </table>
             </div>
             <div style="width:90%;float:left;display:inline;">
-                <h4 class="table_heading">Execution Reports</h4>
+                <h4 class="table_heading">Execution</h4>
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
@@ -161,6 +183,7 @@ require_once('inc/def.php');
 
                 getrecord_max();
                 getpl_records();
+                get_order_summary();
 
             }
 
@@ -183,6 +206,7 @@ require_once('inc/def.php');
 
                 getrecord_max();
                 getpl_records();
+                get_order_summary();
 
             }
 
@@ -204,6 +228,7 @@ require_once('inc/def.php');
         $(document).ready(function() {
             getrecord_max();
             getpl_records();
+            get_order_summary();
         });
 
         function getpl_records(){
@@ -245,6 +270,48 @@ require_once('inc/def.php');
                 }
             });
         }
+
+        function get_order_summary(){
+
+            $('#jsontable_order').dataTable().fnDestroy();
+
+            var all_val = $('input[name=options]:checked').val();
+            var stDate = $('input[name=stDate]').val();
+            var enDate = $('input[name=enDate]').val();
+
+            $.ajax({
+
+                url: 'process_order.php?method=fetchdata&theid='+all_val+'&stdate='+stDate+'&endate='+enDate + " ",
+                dataType: 'json',
+                success: function(s){
+
+                    if(s == "empty"){
+
+                    } else {
+                        var data = [];
+
+                        for(var i = 0; i < s.length; i++) {
+                            data.push([s[i][0], s[i][1], s[i][2], s[i][3], s[i][4], s[i][5], s[i][6], s[i][7], s[i][8], s[i][9], s[i][10], s[i][11], s[i][12], s[i][13]]);
+                        }
+
+                        var oTable = $('#jsontable_order').dataTable({
+                            "data": data,
+                            "iDisplayLength": 25,
+                            "processing": true,
+                            "scrollX": true,
+                            "deferRender": true,
+                            "order": [[ 0, "desc" ]]
+                        });
+                    }
+                },
+                error: function(e){
+                    //console.log(e.responseText);
+                    //alert(e.responseText);
+                    //alert('Error loading records.')
+                }
+            });
+        }
+
         function getrecord_max(){
 
             $('#jsontable').dataTable().fnDestroy();
