@@ -69,7 +69,7 @@ require_once('../inc/def.php');
 
             </div>
 
-            <div style="width:60%;float:left;display:inline;padding-left:10px;">
+            <div style="width:20%;float:left;display:inline;padding-left:10px;">
                 <h4 class="table_heading">Expiries</h4>
                 <table id="jsontable_expiries" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
@@ -80,7 +80,7 @@ require_once('../inc/def.php');
                     </thead>
                 </table>
             </div>
-            <div style="width:40%;float:left;display:inline;padding-left:10px;">
+            <div style="width:80%;float:left;display:inline;padding-left:10px;">
                 <h4 class="table_heading">Brokerage</h4>
                 <table id="jsontable_pnl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
@@ -98,7 +98,7 @@ require_once('../inc/def.php');
                     </thead>
                 </table>
             </div>
-            <div style="width:100%;float:left;display:inline;padding-left:10px;">
+            <div style="width:90%;float:left;display:inline;padding-left:10px;">
                 <h4 class="table_heading">Trades</h4>
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
