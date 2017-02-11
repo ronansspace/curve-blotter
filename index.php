@@ -253,8 +253,8 @@ require_once('inc/def.php');
                         for(var i = 0; i < s.length; i++) {
                             data.push([s[i][0], s[i][1], s[i][2], s[i][3], s[i][4], s[i][5], s[i][6], s[i][7]]);
                         }
-                        
-                        var oTable = $('#jsontable_pl').dataTable(){
+
+                        var oTable = $('#jsontable_pl').dataTable({
                             "data": data,
                             "iDisplayLength": 25,
                             "processing": true,
