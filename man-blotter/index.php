@@ -36,7 +36,7 @@ require_once('../inc/def.php');
 
             <header>
                 <img src="../images/logo.jpg">
-                <h1>FIX Blotter</h1>
+                <h1>Manual Blotter</h1>
                 <br style="clear:both">
             </header>
 
@@ -69,80 +69,84 @@ require_once('../inc/def.php');
 
             </div>
 
-            <div style="width:90%;float:left;display:inline;padding-left:10px;">
-                <h4 class="table_heading">Positions</h4>
-                <table id="jsontable_pl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
+            <div style="width:60%;float:left;display:inline;padding-left:10px;">
+                <h4 class="table_heading">Expiries</h4>
+                <table id="jsontable_expiries" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
-                        <th>CcyPair</th>
-                        <th>BoughtQty</th>
-                        <th>SoldQty</th>
-                        <th>SettledQty</th>
-                        <th>BoughtAVG</th>
-                        <th>SoldAVG</th>
-                        <th>Realised PL</th>
-                        <th>OutstandingQty</th>
+                        <th>Trade ID</th>
+                        <th>Expiry Date</th>
                     </tr>
                     </thead>
                 </table>
             </div>
-            <div style="width:90%;float:left;display:inline;padding-left:10px;">
-                <h4 class="table_heading">Orders</h4>
-                <table id="jsontable_order" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
+            <div style="width:40%;float:left;display:inline;padding-left:10px;">
+                <h4 class="table_heading">Brokerage</h4>
+                <table id="jsontable_pnl" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
-                        <th>OrderID</th>
-                        <th>Account</th>
+                        <th>Trade ID</th>
+                        <th>Gros Profit</th>
+                        <th>PB Cost</th>
+                        <th>Venue Cost</th>
+                        <th>Total Cost</th>
+                        <th>Net Profit</th>
+                        <th>Contract</th>
                         <th>Trader</th>
-                        <th>B/S</th>
-                        <th>Pair</th>
-                        <th>Ccy</th>
-                        <th>Avg Price</th>
-                        <th>Trade Date</th>
-                        <th>SettleDate</th>
-                        <th>Order Type</th>
-                        <th>Order Qty</th>
-                        <th>Order Status</th>
-                        <th>Outstanding Qty</th>
-                        <th>Source System</th>
+                        <th>FX Pair ID</th>
                     </tr>
                     </thead>
                 </table>
             </div>
-            <div style="width:90%;float:left;display:inline;">
-                <h4 class="table_heading">Execution</h4>
+            <div style="width:100%;float:left;display:inline;padding-left:10px;">
+                <h4 class="table_heading">Trades</h4>
                 <table id="jsontable" class="display table table-hover table-striped table-bordered nowrap" cellspacing="0" width="100%">
                     <thead>
                     <tr>
-                        <th>Transact Time</th>
-                        <th>Exec ID</th>
-                        <th>Account</th>
+                        <th> </th>
+                        <th>ID</th>
+                        <th>TET</th>
+                        <th>PB</th>
+                        <th>Client</th>
+                        <th>Contract</th>
+                        <th>Client</th>
                         <th>B/S</th>
-                        <th>Pair</th>
-                        <th>Exec Qty</th>
-                        <th>Exec Price</th>
-                        <th>Order Qty</th>
-                        <th>Trade Date</th>
-                        <th>Settle Date</th>
-                        <th>Order Type</th>
-                        <th>Order Status</th>
-                        <th>Exec Type</th>
-                        <th>Avg Price</th>
-                        <th>Cumul Qty</th>
-                        <th>Remain Qty</th>
-                        <th>Currency</th>
+                        <th>Notional</th>
+                        <th>CCY</th>
+                        <th>Counter&nbsp;Amount</th>
+                        <th>Rate</th>
+                        <th>Trade&nbsp;Date</th>
+                        <th>Value&nbsp;Date</th>
+                        <th>Trader</th>
+                        <th>SPCUT</th>
+                        <th>Status</th>
+                        <th>Prem&nbsp;Amount</th>
+                        <th>Barrier&nbsp;Type</th>
+                        <th>Lower&nbsp;Barrier</th>
+                        <th>Upper&nbsp;Barrier</th>
+                        <th>Knock&nbsp;in&nbsp;out</th>
+                        <th>Touch&nbsp;up&nbsp;down</th>
+                        <th>Rebate&nbsp;CCY</th>
+                        <th>Expiry</th>
+                        <th>Rebate&nbsp;Amount</th>
+                        <th>Payout&nbsp;CCY</th>
+                        <th>Delivery</th>
+                        <th>FX&nbsp;Pair&nbsp;ID</th>
+                        <th>platform</th>
+                        <th>indicator</th>
+                        <th>platform_trade_id</th>
+                        <th>Cparty</th>
+                        <th>P/C</th>
+                        <th>OptCut</th>
+                        <th>Type</th>
+                        <th>Cash&nbsp;at</th>
+                        <th>Barrier&nbsp;StartDate</th>
+                        <th>Barrier&nbsp;EndDate</th>
+                        <th>Strike</th>
+                        <th>Expiry&nbsp;Date</th>
+                        <th>Sett&nbsp;Date</th>
                         <th>Price</th>
-                        <th>Time In Force</th>
-                        <th>ListID</th>
-                        <th>Effective Time</th>
-                        <th>No. Contra Brokers</th>
-                        <th>Secondary Exec ID</th>
-                        <th>ClOrdID</th>
-                        <th>Order ID</th>
-                        <th>Party ID</th>
-                        <th>Contra Broker</th>
-                        <th>Source System</th>
-                        </tr>
+                    </tr>
                     </thead>
                 </table>
             </div>
