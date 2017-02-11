@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99ec07a4-eae7-4a07-aad2-2f77ce29188e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/auth.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/webServers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/getrecord.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/index2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/newtrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/pace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/paging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin-max-old/store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/APC.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/CacheBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/ICache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/Igbinary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/Memcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/Memory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/SQLite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/SQLite3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorage/Wincache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CachedObjectStorageFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/CalcEngine/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/DateTime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Engineering.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/ExceptionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Financial.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/FormulaParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/FormulaToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Logical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/LookupRef.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/MathTrig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Statistical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/TextData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/Token/Stack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Calculation/functionlist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell/AdvancedValueBinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell/DataType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell/DataValidation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell/DefaultValueBinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell/Hyperlink.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Cell/IValueBinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Axis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/DataSeries.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/DataSeriesValues.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/GridLines.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Layout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Legend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/PlotArea.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Properties.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Renderer/jpgraph.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Chart/Title.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/DocumentProperties.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/DocumentSecurity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/HashTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Helper/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/IComparable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/IOFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/NamedRange.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/CSV.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/DefaultReadFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel2003XML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel2007.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel2007/Chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel2007/Theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Color.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Color/BIFF5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Color/BIFF8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Color/BuiltIn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/ErrorCode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Escher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/MD5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/RC4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Style/Border.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Excel5/Style/FillPattern.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/Gnumeric.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/IReadFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/IReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/OOCalc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Reader/SYLK.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/ReferenceHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/RichText.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/RichText/ITextElement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/RichText/Run.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/RichText/TextElement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/CodePage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Date.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Drawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DgContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DggContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Excel5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/LUDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/Matrix.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/utils/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/JAMA/utils/Maths.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/OLE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/OLE/PPS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/OLE/PPS/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/OLE/PPS/Root.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/OLERead.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/PCLZip/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/PasswordHasher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/TimeZone.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/XMLWriter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/ZipArchive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/ZipStreamWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/bestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/linearBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/powerBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Shared/trend/trendClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Alignment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Border.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Borders.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Color.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Conditional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Fill.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/NumberFormat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Protection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Style/Supervisor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/AutoFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/AutoFilter/Column.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/BaseDrawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/CellIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/Column.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/ColumnCellIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/ColumnDimension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/ColumnIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/Dimension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/Drawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/Drawing/Shadow.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/HeaderFooter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/MemoryDrawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/PageMargins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/PageSetup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/Protection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/Row.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/RowCellIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/RowDimension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/RowIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Worksheet/SheetView.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/WorksheetIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/CSV.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/ContentTypes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/DocProps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Drawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Rels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/RelsRibbon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/RelsVBA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/StringTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Style.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Workbook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/Worksheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel2007/WriterPart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/BIFFwriter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/Escher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/Workbook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/Worksheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Excel5/Xf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/IWriter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Cell/Comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/MetaInf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Mimetype.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Styles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/Thumbnails.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/OpenDocument/WriterPart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/PDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/PDF/Core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/PDF/DomPDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/PDF/mPDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/Writer/PDF/tcPDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/bg/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/cs/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/cs/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/da/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/da/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/de/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/de/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/en/uk/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/es/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/es/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/fi/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/fi/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/fr/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/fr/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/hu/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/hu/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/it/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/it/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/nl/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/nl/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/no/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/no/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/pl/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/pl/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/pt/br/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/pt/br/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/pt/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/pt/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/ru/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/ru/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/sv/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/sv/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/tr/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/Classes/PHPExcel/locale/tr/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/admin_header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/brokerage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/brokerage_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/ccyrate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/client_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/clients.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/email_options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_csv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_csv_max.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_csv_off.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_rbs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_rbs_max.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtrade_rbs_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/emailtradeform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/excel_files/file_04-19-2016_1153am.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/excel_files/file_04-19-2016_1156am.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/excel_files/file_04-22-2016_1105am.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/excel_files/file_04-22-2016_1109am.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/excel_files/file_04-22-2016_1118am.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/excel_files/file_04-23-2016_0847am.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/fix_api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/getrecord.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/images/filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/images/ui-icons_777620_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/images/ui-icons_777777_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/images/ui-icons_cc0000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/jquery-ui-11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/jquery10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/pace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include/paging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_data/browser-bugs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_data/core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_data/glyphicons.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_data/sass-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_data/showcase.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_data/translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/ads.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/button-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/button-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/input-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/jumbotron.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/list-group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/navs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/page-header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/responsive-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/components/wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/responsive-utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/sass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/css/type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/customizer-variables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/browser-device-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/community.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/grunt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/third-party-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/tools.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/translations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/getting-started/whats-included.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/tooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/js/transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/nav/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_includes/social-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_jade/customizer-nav.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_jade/customizer-variables.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_plugins/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/_plugins/bugify.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/brand/bootstrap-outline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/brand/bootstrap-punchout.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/brand/bootstrap-solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/css/docs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/css/src/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/css/src/pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/flash/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/img/components.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/img/devices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/img/sass-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/customize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/raw-files.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/src/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/src/customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/Blob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/holder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/assets/js/vendor/uglify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/browser-bugs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/blog/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/carousel/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/cover/cover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/cover/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/dashboard/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/dashboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/grid/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/jumbotron-narrow/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/jumbotron/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/jumbotron/jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/justified-nav/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/justified-nav/justified-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/navbar-fixed-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/navbar-static-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/navbar/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/non-responsive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/non-responsive/non-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/offcanvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/offcanvas/offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/offcanvas/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/carousel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/equal-height-columns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/jumbotron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/justified-nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/navbar-fixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/navbar-static.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/non-responsive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/offcanvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/sign-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/starter-template.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/sticky-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/screenshots/theme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/signin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/signin/signin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/starter-template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/starter-template/starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/sticky-footer-navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/sticky-footer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/sticky-footer/sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/theme/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/tooltip-viewport/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/docs/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/unit/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/vendor/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/vendor/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/affix-with-sticky-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/test-infra/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/test-infra/S3Cachefile.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/test-infra/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/test-infra/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/test-infra/s3_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/bsfiles/test-infra/uncached-npm-install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/datatable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/include_online/datatables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/index1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/index2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/index_max.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/newbrokerage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/newccyrate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/newclient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/newclient_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/newtrade_new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/newuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/all_brokerage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/all_ccyrates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/all_client_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/all_clients.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/all_users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/brokerage_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/brokerage_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/brokerage_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/ccyrate_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/ccyrate_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/client_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/client_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/client_trader_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/client_trader_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/email_settings_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/get_ccyrate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/get_client_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/pnl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/user_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/user_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/all_brokerage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/all_ccyrates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/all_client_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/all_clients.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/all_users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/brokerage_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/brokerage_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/ccyrate_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/ccyrate_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/client_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/client_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/client_trader_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/client_trader_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/email_settings_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/get_ccyrate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/get_client_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/pnl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/user_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process/xtra/user_store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process_anony.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/process_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/store1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/admin_header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/brokerage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/brokerage_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/ccyrate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/client_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/clients.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/email_options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_client_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_csv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_csv_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_csv_off.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_rbs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_rbs_18-05.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_rbs_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtrade_rbs_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtradeform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/emailtradeform_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/getrecord.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/index1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newbrokerage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newccyrate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newclient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newclient_trader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newtrade_new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newtrade_new_dump.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/newuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/process.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/process_anony.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/process_copy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/process_delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/admin/xtra/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/auth-old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/maxstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-icons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-schemes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro-schemes.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/css/metro.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/emailtrade_client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/fonts/metro.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/fonts/metro.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/fonts/metro.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/fonts/metro.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/fonts/selection.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/img/CurveMarketlogo.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/inc/def.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/inc/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/js/metro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/js/metro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/maxstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/mongo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/getrecord.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/index2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/newtrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/pace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/paging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/admin-old/store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-icons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-schemes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro-schemes.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/css-old/metro.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/js-old/metro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth/xtra/js-old/metro.min.js" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/man-blotter/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="178" column="15" lean-forward="true" selection-start-line="178" selection-start-column="15" selection-end-line="178" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4941#4947#0#HTML" expanded="true" />
+                <element signature="e#5030#5036#0#HTML" expanded="true" />
+                <element signature="e#5079#5085#0#HTML" expanded="true" />
+                <element signature="e#5246#5252#0#HTML" expanded="true" />
+                <element signature="e#5299#5305#0#HTML" expanded="true" />
+                <element signature="e#5348#5354#0#HTML" expanded="true" />
+                <element signature="e#5400#5406#0#HTML" expanded="true" />
+                <element signature="e#5452#5458#0#HTML" expanded="true" />
+                <element signature="e#5460#5466#0#HTML" expanded="true" />
+                <element signature="e#5508#5514#0#HTML" expanded="true" />
+                <element signature="e#5516#5522#0#HTML" expanded="true" />
+                <element signature="e#5566#5572#0#HTML" expanded="true" />
+                <element signature="e#5655#5661#0#HTML" expanded="true" />
+                <element signature="e#5707#5713#0#HTML" expanded="true" />
+                <element signature="e#5794#5800#0#HTML" expanded="true" />
+                <element signature="e#5804#5810#0#HTML" expanded="true" />
+                <element signature="e#6141#6147#0#HTML" expanded="true" />
+                <element signature="e#6190#6196#0#HTML" expanded="true" />
+                <element signature="e#6246#6252#0#HTML" expanded="true" />
+                <element signature="e#6339#6345#0#HTML" expanded="true" />
+                <element signature="e#6387#6393#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+                <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+                <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+                <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fix-blotter/process_order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <marker date="1486830999000" expanded="true" signature="853:1137" ph="select Order... FIXExecutionReport" />
+                <marker date="1486830999000" expanded="true" signature="853:1149" ph="select Order... FIXExecutionReport" />
+                <marker date="1486830999000" expanded="true" signature="1040:1135" ph="select max(T... FIXExecutionReport" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_pl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fields.insert(pair&lt;string, string&gt;(&quot;</find>
+      <find>id_trades</find>
+      <find>document</find>
+      <find>getpl_records</find>
+      <find>FIX</find>
+      <find>jsontable</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/inc/def.php" />
+        <option value="$PROJECT_DIR$/process_pl.php" />
+        <option value="$PROJECT_DIR$/process.php" />
+        <option value="$PROJECT_DIR$/mysql/stored_proc/get_pl.proc" />
+        <option value="$PROJECT_DIR$/process)order.php" />
+        <option value="$PROJECT_DIR$/process_order.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/fix-blotter/process.php" />
+        <option value="$PROJECT_DIR$/fix-blotter/process_order.php" />
+        <option value="$PROJECT_DIR$/fix-blotter/process_pl.php" />
+        <option value="$PROJECT_DIR$/fix-blotter/index.php" />
+        <option value="$PROJECT_DIR$/man-blotter/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="188.166.175.10" id="28d40073-0f5c-4da5-af63-92d3f978d4e3" name="curve-blotter" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/inc" remote-root="/var/www/html/curve-blotter/inc" />
+          <mapping local-root="$PROJECT_DIR$/inc/def.php" remote-root="/var/www/html/curve-blotter/inc/def.php" />
+          <mapping local-root="$PROJECT_DIR$/index.php" remote-root="/var/www/html/curve-blotter/index.php" />
+          <mapping local-root="$PROJECT_DIR$/process.php" remote-root="/var/www/html/curve-blotter/process.php" />
+          <mapping local-root="$PROJECT_DIR$/process_pl.php" remote-root="/var/www/html/curve-blotter/process_pl.php" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="curve-blotter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="curve-blotter" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/fix-blotter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/expiries" />
+      <recent name="$PROJECT_DIR$/opt-blotter" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.curve-blotter">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="false" name="curve-blotter" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="e5120d43-2c3f-47ef-9f26-65e539e05186" server_name="curve-blotter" start_url="/curve-blotter">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.curve-blotter" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99ec07a4-eae7-4a07-aad2-2f77ce29188e" name="Default" comment="" />
+      <created>1485729662364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485729662364</updated>
+      <workItem from="1485729663792" duration="4587000" />
+      <workItem from="1485881106847" duration="2354000" />
+      <workItem from="1485885092574" duration="302000" />
+      <workItem from="1485895315358" duration="2710000" />
+      <workItem from="1485988020749" duration="2492000" />
+      <workItem from="1486023036498" duration="5632000" />
+      <workItem from="1486060395047" duration="9045000" />
+      <workItem from="1486584756167" duration="3282000" />
+      <workItem from="1486651765253" duration="23000" />
+      <workItem from="1486661427902" duration="6000" />
+      <workItem from="1486827641279" duration="5007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35440000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/fix-blotter/process.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="106" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/stored_proc/get_pl.proc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486830999000" expanded="true" signature="853:1137" ph="select Order... FIXExecutionReport" />
+            <marker date="1486830999000" expanded="true" signature="853:1149" ph="select Order... FIXExecutionReport" />
+            <marker date="1486830999000" expanded="true" signature="1040:1135" ph="select max(T... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4080">
+          <caret line="272" column="41" lean-forward="false" selection-start-line="272" selection-start-column="41" selection-end-line="272" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="164" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="164" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="149" column="25" lean-forward="true" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="126" lean-forward="true" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/stored_proc/get_pl.proc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/def.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1486830994000" expanded="true" signature="853:867" ph="SELECT * FRO... contract" />
+            <marker date="1486830994000" expanded="true" signature="853:885" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="853:932" ph="SELECT * FRO... FIXExecutionReport" />
+            <marker date="1486830994000" expanded="true" signature="935:964" ph="SELECT * FRO... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1486830999000" expanded="true" signature="853:1137" ph="select Order... FIXExecutionReport" />
+            <marker date="1486830999000" expanded="true" signature="853:1149" ph="select Order... FIXExecutionReport" />
+            <marker date="1486830999000" expanded="true" signature="1040:1135" ph="select max(T... FIXExecutionReport" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/process_pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expiries/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-blotter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="178" column="15" lean-forward="true" selection-start-line="178" selection-start-column="15" selection-end-line="178" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4941#4947#0#HTML" expanded="true" />
+            <element signature="e#5030#5036#0#HTML" expanded="true" />
+            <element signature="e#5079#5085#0#HTML" expanded="true" />
+            <element signature="e#5246#5252#0#HTML" expanded="true" />
+            <element signature="e#5299#5305#0#HTML" expanded="true" />
+            <element signature="e#5348#5354#0#HTML" expanded="true" />
+            <element signature="e#5400#5406#0#HTML" expanded="true" />
+            <element signature="e#5452#5458#0#HTML" expanded="true" />
+            <element signature="e#5460#5466#0#HTML" expanded="true" />
+            <element signature="e#5508#5514#0#HTML" expanded="true" />
+            <element signature="e#5516#5522#0#HTML" expanded="true" />
+            <element signature="e#5566#5572#0#HTML" expanded="true" />
+            <element signature="e#5655#5661#0#HTML" expanded="true" />
+            <element signature="e#5707#5713#0#HTML" expanded="true" />
+            <element signature="e#5794#5800#0#HTML" expanded="true" />
+            <element signature="e#5804#5810#0#HTML" expanded="true" />
+            <element signature="e#6141#6147#0#HTML" expanded="true" />
+            <element signature="e#6190#6196#0#HTML" expanded="true" />
+            <element signature="e#6246#6252#0#HTML" expanded="true" />
+            <element signature="e#6339#6345#0#HTML" expanded="true" />
+            <element signature="e#6387#6393#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

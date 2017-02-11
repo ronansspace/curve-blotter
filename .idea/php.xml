@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="188.166.175.10" id="28d40073-0f5c-4da5-af63-92d3f978d4e3" name="curve-blotter" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/inc" remote-root="/var/www/html/curve-blotter/inc" />
+          <mapping local-root="$PROJECT_DIR$/inc/def.php" remote-root="/var/www/html/curve-blotter/inc/def.php" />
+          <mapping local-root="$PROJECT_DIR$/index.php" remote-root="/var/www/html/curve-blotter/index.php" />
+          <mapping local-root="$PROJECT_DIR$/process.php" remote-root="/var/www/html/curve-blotter/process.php" />
+          <mapping local-root="$PROJECT_DIR$/process_pl.php" remote-root="/var/www/html/curve-blotter/process_pl.php" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+</project>
