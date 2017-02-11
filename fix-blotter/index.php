@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('inc/def.php');
+require_once('../inc/def.php');
 ?>
 
 <!doctype html>
@@ -10,13 +10,13 @@ require_once('inc/def.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Curve Markets FX Blotter</title>
-    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="include/pace.css">
-    <link rel="stylesheet" href=include/bootstrap.css">
+    <link rel="stylesheet" href="../include/pace.css">
+    <link rel="stylesheet" href=../include/bootstrap.css">
 
-    <link rel="stylesheet" href="include/jquery-ui.css">
-    <link rel="stylesheet" href="include_online/datatables.min.css">
+    <link rel="stylesheet" href="../include/jquery-ui.css">
+    <link rel="stylesheet" href="../include_online/datatables.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,7 +25,7 @@ require_once('inc/def.php');
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="include/main.css">
+    <link rel="stylesheet" href="../include/main.css">
 
 </head>
 <body>
@@ -35,7 +35,7 @@ require_once('inc/def.php');
         <div style="width:90%;margin:0 auto;padding-top:15px;">
 
             <header>
-                <img src="images/logo.jpg">
+                <img src="../images/logo.jpg">
                 <h1>FIX Blotter</h1>
                 <br style="clear:both">
             </header>
@@ -149,15 +149,15 @@ require_once('inc/def.php');
         </div>
     </div>
 
-    <script src="include/jquery10.js"></script>
-    <script src="include/pace.min.js"></script>
-    <script src="include/bootstrap.min.js"></script>
+    <script src="../include/jquery10.js"></script>
+    <script src="../include/pace.min.js"></script>
+    <script src="../include/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="include_online/datatable.js"></script>
-    <script type="text/javascript" src="include_online/bootstrap.js"></script>
+    <script type="text/javascript" src="../include_online/datatable.js"></script>
+    <script type="text/javascript" src="../include_online/bootstrap.js"></script>
 
-    <script src="include/jquery-ui-11.js"></script>
-    <script src="include/paging.js"></script>
+    <script src="../include/jquery-ui-11.js"></script>
+    <script src="../include/paging.js"></script>
 
 
     <script>
@@ -253,7 +253,7 @@ require_once('inc/def.php');
                         for(var i = 0; i < s.length; i++) {
                             data.push([s[i][0], s[i][1], s[i][2], s[i][3], s[i][4], s[i][5], s[i][6], s[i][7]]);
                         }
-                        
+
                         var oTable = $('#jsontable_pl').dataTable({
                             "data": data,
                             "iDisplayLength": 25,
