@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="188.166.175.10" id="63921522-5164-466f-a3d2-2adc136ec1f0" name="Curve" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html/auth" />
+          <mapping local-root="$PROJECT_DIR$/admin" remote-root="/var/www/html/auth/admin" />
+          <mapping local-root="$PROJECT_DIR$/admin/clients.php" remote-root="/var/www/html/auth/admin/clients.php" />
+          <mapping local-root="$PROJECT_DIR$/admin/newclient.php" remote-root="/var/www/html/auth/admin/newclient.php" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" />
+    </phpunit_settings>
+  </component>
+</project>
